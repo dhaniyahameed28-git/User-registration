@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>User Registration</h1>
+
+        <form id="userForm" novalidate>
+
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <small id="nameError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <small id="emailError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="Enter phone number">
+                <small id="phoneError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Enter your age">
+                <small id="ageError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="city">City</label>
+                <select id="city">
+                    <option value="">Select City</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Kochi">Kochi</option>
+                    <option value="Calicut">Calicut</option>
+                    <option value="Bangalore">Bangalore</option>
+                </select>
+                <small id="cityError"></small>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+
+                <label>
+                    <input type="radio" name="gender" value="Male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Female">
+                    Female
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Other">
+                    Other
+                </label>
+
+                <small id="genderError"></small>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="terms">
+                    I accept the terms and conditions
+                </label>
+                <small id="termsError"></small>
+            </div>
+
+            <button type="submit">Register</button>
+
+            <p id="formMessage"></p>
+
+        </form>
+
+        <h2>Registered Users</h2>
+
+        <button type="button" id="downloadBtn">Download JSON</button>
+
+        <label for="pageSize">Rows per page:</label>
+        <select id="pageSize">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+        </select>
+    </div class="table wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Gender</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody id="userTableBody">
+                <tr>
+                    <td colspan="8">Loading...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+        <p id="paginationInfo"></p>
+
+        <div id="pagination">
+            <button type="button" id="prevBtn">Prev</button>
+            <div id="pageNumbers"></div>
+            <button type="button" id="nextBtn">Next</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Priya Sharma",
+      "email": "priya@mail.com",
+      "phone": "9123456780",
+      "age": 24,
+      "city": "Mumbai",
+      "gender": "Female",
+      "createdAt": "2026-11-23T10:05:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Arun Kumar",
+      "email": "arun@mail.com",
+      "phone": "9876543211",
+      "age": 30,
+      "city": "Kochi",
+      "gender": "Male",
+      "createdAt": "2026-11-23T10:10:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Anjali Menon",
+      "email": "anjali@mail.com",
+      "phone": "9876543212",
+      "age": 26,
+      "city": "Calicut",
+      "gender": "Female",
+      "createdAt": "2026-11-23T10:15:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Rahul Das",
+      "email": "rahul@mail.com",
+      "phone": "9876543213",
+      "age": 35,
+      "city": "Bangalore",
+      "gender": "Male",
+      "createdAt": "2026-11-23T10:20:00Z"
+    },
+    {
+      "id": "6",
+      "name": "Sneha Raj",
+      "email": "sneha@mail.com",
+      "phone": "9876543214",
+      "age": 23,
+      "city": "Chennai",
+      "gender": "Female",
+      "createdAt": "2026-11-23T10:25:00Z"
+    },
+    {
+      "id": "7",
+      "name": "Akhil Mohan",
+      "email": "akhil@mail.com",
+      "phone": "9876543215",
+      "age": 29,
+      "city": "Kochi",
+      "gender": "Male",
+      "createdAt": "2026-11-23T10:30:00Z"
+    },
+    {
+      "id": "8",
+      "name": "Meera Nair",
+      "email": "meera@mail.com",
+      "phone": "9876543216",
+      "age": 25,
+      "city": "Mumbai",
+      "gender": "Female",
+      "createdAt": "2026-11-23T10:35:00Z"
+    },
+    {
+      "id": "9",
+      "name": "Vishnu Raj",
+      "email": "vishnu@mail.com",
+      "phone": "9876543217",
+      "age": 32,
+      "city": "Calicut",
+      "gender": "Male",
+      "createdAt": "2026-11-23T10:40:00Z"
+    },
+    {
+      "id": "10",
+      "name": "Divya Krishnan",
+      "email": "divya@mail.com",
+      "phone": "9876543218",
+      "age": 27,
+      "city": "Bangalore",
+      "gender": "Female",
+      "createdAt": "2026-11-23T10:45:00Z"
+    },
+    {
+      "id": "11",
+      "name": "Nikhil S",
+      "email": "nikhil@mail.com",
+      "phone": "9876543219",
+      "age": 31,
+      "city": "Chennai",
+      "gender": "Male",
+      "createdAt": "2026-11-23T10:50:00Z"
+    },
+    {
+      "id": "12",
+      "name": "Fathima K",
+      "email": "fathima@mail.com",
+      "phone": "9876543220",
+      "age": 22,
+      "city": "Kochi",
+      "gender": "Female",
+      "createdAt": "2026-11-23T10:55:00Z"
+    },
+    {
+      "id": "kuX-PsmdTAs",
+      "name": "dhaniya",
+      "email": "dhaniyahameed28@gmail.com",
+      "phone": "8075632953",
+      "age": 24,
+      "city": "Calicut",
+      "gender": "Female",
+      "createdAt": "2026-11-24T08:43:05.701Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
